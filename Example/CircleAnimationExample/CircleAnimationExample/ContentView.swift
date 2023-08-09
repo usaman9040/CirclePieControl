@@ -11,9 +11,12 @@ import CirclePieControl
 struct ContentView: View {
     
     @State var progress: Double = 0.0
-
+    
+    /// Add smaller value to make smooth animation
+    /// 0.1 representing after every (0.1)sec update the value
+    /// 30.0 representing total time after it reset
     let progressAddOn = 0.1/30.0
-    let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
+    let timer = Timer.publish(every: 0.1, on: .main, in: .common).autoconnect()
     
     var body: some View {
         CircleAnimation(progress: progress)
