@@ -1,0 +1,517 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "CirclePieControl",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CircleAnimation",
+        "printedName": "CircleAnimation",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(progress:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CircleAnimation",
+                "printedName": "CirclePieControl.CircleAnimation",
+                "usr": "s:16CirclePieControl0A9AnimationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16CirclePieControl0A9AnimationV8progressACSd_tcfc",
+            "mangledName": "$s16CirclePieControl0A9AnimationV8progressACSd_tcfc",
+            "moduleName": "CirclePieControl",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZStack",
+                "printedName": "SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI._ShapeView<SwiftUI.Circle, SwiftUI.Color>, SwiftUI.ModifiedContent<CirclePieControl.PieSegment, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>)>>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TupleView",
+                    "printedName": "SwiftUI.TupleView<(SwiftUI._ShapeView<SwiftUI.Circle, SwiftUI.Color>, SwiftUI.ModifiedContent<CirclePieControl.PieSegment, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>)>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(SwiftUI._ShapeView<SwiftUI.Circle, SwiftUI.Color>, SwiftUI.ModifiedContent<CirclePieControl.PieSegment, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "_ShapeView",
+                            "printedName": "SwiftUI._ShapeView<SwiftUI.Circle, SwiftUI.Color>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Circle",
+                                "printedName": "SwiftUI.Circle",
+                                "usr": "s:7SwiftUI6CircleV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Color",
+                                "printedName": "SwiftUI.Color",
+                                "usr": "s:7SwiftUI5ColorV"
+                              }
+                            ],
+                            "usr": "s:7SwiftUI10_ShapeViewV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ModifiedContent",
+                            "printedName": "SwiftUI.ModifiedContent<CirclePieControl.PieSegment, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "PieSegment",
+                                "printedName": "CirclePieControl.PieSegment",
+                                "usr": "s:16CirclePieControl0B7SegmentV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "_EnvironmentKeyWritingModifier",
+                                "printedName": "SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Optional",
+                                    "printedName": "SwiftUI.Color?",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "Color",
+                                        "printedName": "SwiftUI.Color",
+                                        "usr": "s:7SwiftUI5ColorV"
+                                      }
+                                    ],
+                                    "usr": "s:Sq"
+                                  }
+                                ],
+                                "usr": "s:7SwiftUI30_EnvironmentKeyWritingModifierV"
+                              }
+                            ],
+                            "usr": "s:7SwiftUI15ModifiedContentV"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:7SwiftUI9TupleViewV"
+                  }
+                ],
+                "usr": "s:7SwiftUI6ZStackV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16CirclePieControl0A9AnimationV4bodyQrvp",
+            "mangledName": "$s16CirclePieControl0A9AnimationV4bodyQrvp",
+            "moduleName": "CirclePieControl",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZStack",
+                    "printedName": "SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI._ShapeView<SwiftUI.Circle, SwiftUI.Color>, SwiftUI.ModifiedContent<CirclePieControl.PieSegment, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>)>>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TupleView",
+                        "printedName": "SwiftUI.TupleView<(SwiftUI._ShapeView<SwiftUI.Circle, SwiftUI.Color>, SwiftUI.ModifiedContent<CirclePieControl.PieSegment, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>)>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(SwiftUI._ShapeView<SwiftUI.Circle, SwiftUI.Color>, SwiftUI.ModifiedContent<CirclePieControl.PieSegment, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "_ShapeView",
+                                "printedName": "SwiftUI._ShapeView<SwiftUI.Circle, SwiftUI.Color>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Circle",
+                                    "printedName": "SwiftUI.Circle",
+                                    "usr": "s:7SwiftUI6CircleV"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Color",
+                                    "printedName": "SwiftUI.Color",
+                                    "usr": "s:7SwiftUI5ColorV"
+                                  }
+                                ],
+                                "usr": "s:7SwiftUI10_ShapeViewV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ModifiedContent",
+                                "printedName": "SwiftUI.ModifiedContent<CirclePieControl.PieSegment, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "PieSegment",
+                                    "printedName": "CirclePieControl.PieSegment",
+                                    "usr": "s:16CirclePieControl0B7SegmentV"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "_EnvironmentKeyWritingModifier",
+                                    "printedName": "SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "Optional",
+                                        "printedName": "SwiftUI.Color?",
+                                        "children": [
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "Color",
+                                            "printedName": "SwiftUI.Color",
+                                            "usr": "s:7SwiftUI5ColorV"
+                                          }
+                                        ],
+                                        "usr": "s:Sq"
+                                      }
+                                    ],
+                                    "usr": "s:7SwiftUI30_EnvironmentKeyWritingModifierV"
+                                  }
+                                ],
+                                "usr": "s:7SwiftUI15ModifiedContentV"
+                              }
+                            ]
+                          }
+                        ],
+                        "usr": "s:7SwiftUI9TupleViewV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI6ZStackV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16CirclePieControl0A9AnimationV4bodyQrvg",
+                "mangledName": "$s16CirclePieControl0A9AnimationV4bodyQrvg",
+                "moduleName": "CirclePieControl",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16CirclePieControl0A9AnimationV",
+        "mangledName": "$s16CirclePieControl0A9AnimationV",
+        "moduleName": "CirclePieControl",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZStack",
+                    "printedName": "SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI._ShapeView<SwiftUI.Circle, SwiftUI.Color>, SwiftUI.ModifiedContent<CirclePieControl.PieSegment, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>)>>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TupleView",
+                        "printedName": "SwiftUI.TupleView<(SwiftUI._ShapeView<SwiftUI.Circle, SwiftUI.Color>, SwiftUI.ModifiedContent<CirclePieControl.PieSegment, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>)>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(SwiftUI._ShapeView<SwiftUI.Circle, SwiftUI.Color>, SwiftUI.ModifiedContent<CirclePieControl.PieSegment, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "_ShapeView",
+                                "printedName": "SwiftUI._ShapeView<SwiftUI.Circle, SwiftUI.Color>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Circle",
+                                    "printedName": "SwiftUI.Circle",
+                                    "usr": "s:7SwiftUI6CircleV"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Color",
+                                    "printedName": "SwiftUI.Color",
+                                    "usr": "s:7SwiftUI5ColorV"
+                                  }
+                                ],
+                                "usr": "s:7SwiftUI10_ShapeViewV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ModifiedContent",
+                                "printedName": "SwiftUI.ModifiedContent<CirclePieControl.PieSegment, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "PieSegment",
+                                    "printedName": "CirclePieControl.PieSegment",
+                                    "usr": "s:16CirclePieControl0B7SegmentV"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "_EnvironmentKeyWritingModifier",
+                                    "printedName": "SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "Optional",
+                                        "printedName": "SwiftUI.Color?",
+                                        "children": [
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "Color",
+                                            "printedName": "SwiftUI.Color",
+                                            "usr": "s:7SwiftUI5ColorV"
+                                          }
+                                        ],
+                                        "usr": "s:Sq"
+                                      }
+                                    ],
+                                    "usr": "s:7SwiftUI30_EnvironmentKeyWritingModifierV"
+                                  }
+                                ],
+                                "usr": "s:7SwiftUI15ModifiedContentV"
+                              }
+                            ]
+                          }
+                        ],
+                        "usr": "s:7SwiftUI9TupleViewV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI6ZStackV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "View",
+        "printedName": "View",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "backgroundFill",
+            "printedName": "backgroundFill(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModifiedContent",
+                "printedName": "SwiftUI.ModifiedContent<τ_0_0, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color>>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_EnvironmentKeyWritingModifier",
+                    "printedName": "SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Color",
+                        "printedName": "SwiftUI.Color",
+                        "usr": "s:7SwiftUI5ColorV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI30_EnvironmentKeyWritingModifierV"
+                  }
+                ],
+                "usr": "s:7SwiftUI15ModifiedContentV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP16CirclePieControlE14backgroundFillyQrAA5ColorVF",
+            "mangledName": "$s7SwiftUI4ViewP16CirclePieControlE14backgroundFillyQrAA5ColorVF",
+            "moduleName": "CirclePieControl",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "foregroundFill",
+            "printedName": "foregroundFill(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModifiedContent",
+                "printedName": "SwiftUI.ModifiedContent<τ_0_0, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color>>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_EnvironmentKeyWritingModifier",
+                    "printedName": "SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Color",
+                        "printedName": "SwiftUI.Color",
+                        "usr": "s:7SwiftUI5ColorV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI30_EnvironmentKeyWritingModifierV"
+                  }
+                ],
+                "usr": "s:7SwiftUI15ModifiedContentV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP16CirclePieControlE14foregroundFillyQrAA5ColorVF",
+            "mangledName": "$s7SwiftUI4ViewP16CirclePieControlE14foregroundFillyQrAA5ColorVF",
+            "moduleName": "CirclePieControl",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7SwiftUI4ViewP",
+        "mangledName": "$s7SwiftUI4ViewP",
+        "moduleName": "SwiftUI",
+        "genericSig": "<τ_0_0.Body : SwiftUI.View>",
+        "sugared_genericSig": "<Self.Body : SwiftUI.View>",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13.0",
+        "intro_tvOS": "13.0",
+        "intro_watchOS": "6.0",
+        "declAttributes": [
+          "TypeEraser",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/dev\/Desktop\/CirclePieControl\/CirclePieControl\/CircleAnimation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1168,
+      "length": 3,
+      "value": "-90"
+    },
+    {
+      "filePath": "\/Users\/dev\/Desktop\/CirclePieControl\/CirclePieControl\/CircleAnimation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1357,
+      "length": 3,
+      "value": "360"
+    },
+    {
+      "filePath": "\/Users\/dev\/Desktop\/CirclePieControl\/CirclePieControl\/CircleAnimation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1364,
+      "length": 2,
+      "value": "90"
+    },
+    {
+      "filePath": "\/Users\/dev\/Desktop\/CirclePieControl\/CirclePieControl\/CircleAnimation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1699,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/dev\/Desktop\/CirclePieControl\/CirclePieControl\/CircleAnimation.swift",
+      "kind": "FloatLiteral",
+      "offset": 1857,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/dev\/Desktop\/CirclePieControl\/CirclePieControl\/CircleAnimation.swift",
+      "kind": "FloatLiteral",
+      "offset": 2032,
+      "length": 3,
+      "value": "0.1"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+framework module CirclePieControl {
+  umbrella header "CirclePieControl.h"
+
+  export *
+  module * { export * }
+}
+
+module CirclePieControl.Swift {
+  header "CirclePieControl-Swift.h"
+  requires objc
+}
