@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D76ED87C2A840012006BAB0E /* CirclePieControl.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D76ED87B2A840012006BAB0E /* CirclePieControl.xcframework */; };
-		D76ED87D2A840012006BAB0E /* CirclePieControl.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D76ED87B2A840012006BAB0E /* CirclePieControl.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D76ED87F2A84085F006BAB0E /* CirclePieControl.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D76ED87E2A84085E006BAB0E /* CirclePieControl.xcframework */; };
+		D76ED8802A84085F006BAB0E /* CirclePieControl.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D76ED87E2A84085E006BAB0E /* CirclePieControl.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D7D4EAF82A805E7300F349E6 /* CircleAnimationExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4EAF72A805E7300F349E6 /* CircleAnimationExampleApp.swift */; };
 		D7D4EAFC2A805E7600F349E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7D4EAFB2A805E7600F349E6 /* Assets.xcassets */; };
 		D7D4EAFF2A805E7600F349E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7D4EAFE2A805E7600F349E6 /* Preview Assets.xcassets */; };
@@ -16,13 +16,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		D7D4EB102A805EE800F349E6 /* Embed Frameworks */ = {
+		D76ED8812A84085F006BAB0E /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D76ED87D2A840012006BAB0E /* CirclePieControl.xcframework in Embed Frameworks */,
+				D76ED8802A84085F006BAB0E /* CirclePieControl.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -31,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		D76ED87B2A840012006BAB0E /* CirclePieControl.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CirclePieControl.xcframework; path = ../../build/CirclePieControl.xcframework; sourceTree = "<group>"; };
+		D76ED87E2A84085E006BAB0E /* CirclePieControl.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CirclePieControl.xcframework; path = ../../Sources/CirclePieControl.xcframework; sourceTree = "<group>"; };
 		D7D4EAF42A805E7300F349E6 /* CircleAnimationExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleAnimationExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7D4EAF72A805E7300F349E6 /* CircleAnimationExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleAnimationExampleApp.swift; sourceTree = "<group>"; };
 		D7D4EAFB2A805E7600F349E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,7 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D76ED87C2A840012006BAB0E /* CirclePieControl.xcframework in Frameworks */,
+				D76ED87F2A84085F006BAB0E /* CirclePieControl.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +90,7 @@
 		D7D4EB0D2A805EE800F349E6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D76ED87E2A84085E006BAB0E /* CirclePieControl.xcframework */,
 				D76ED87B2A840012006BAB0E /* CirclePieControl.xcframework */,
 			);
 			name = Frameworks;
@@ -104,7 +106,7 @@
 				D7D4EAF02A805E7300F349E6 /* Sources */,
 				D7D4EAF12A805E7300F349E6 /* Frameworks */,
 				D7D4EAF22A805E7300F349E6 /* Resources */,
-				D7D4EB102A805EE800F349E6 /* Embed Frameworks */,
+				D76ED8812A84085F006BAB0E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
